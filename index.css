@@ -1,0 +1,79 @@
+body {
+  background-color: #1b1c23;
+  color: #BDD4E7;
+  font-family: 'Noto Sans Sc', sans-serif;
+}
+
+.app-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.glider-contain {
+  width: 50%;
+  color: #BDD4E7;
+}
+
+.glider-dot {
+  background-color: #5c9dce;
+}
+
+.active {
+  background-color: #0e8ded;
+}
+
+.fa {
+  color: #b1cce3;
+  padding: 15px;
+  transition: color 0.8s ease-in-out;
+}
+
+.fa:hover {
+  color: #0e8ded;
+}
+
+a:link {
+  text-decoration: none;
+  color: #1a1c23;
+}
+
+a:hover {
+  color: #b1cce3;
+}
+
+a:visited {
+  color: #1a1c23;
+}
+
+.gliderTrack {
+  color: #1a1c23;
+  border: 5px outset #bdd4e6;
+  max-height: 200px;
+}
+
+.glider-next {
+  right: -50px;
+}
+
+.glider-prev {
+  left: -50px;
+}
+
+.glider-slide {
+  border-right: 2px solid dimgrey;
+  text-overflow: ellipsis;
+}
+
+.repo-name {
+  font-size: 1.2rem;
+}
+
+.fa-chevron-left:hover {
+  box-shadow: 1px 1px 2px 2px;
+  border-radius: 50%;
+}
+
+.fa-chevron-right:hover {
+  box-shadow: 1px 1px 2px 2px;
+  border-radius: 50%;
+}
